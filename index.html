@@ -30,15 +30,15 @@ button,input{font:inherit} button{cursor:pointer}
 .group-options{display:grid;gap:6px}.group-option{display:block;border:1px solid var(--line);border-radius:9px;padding:8px;background:#fff}.group-option:has(input:checked){border-color:var(--accent);background:#ecfbfd;box-shadow:0 0 0 2px rgba(0,167,191,.08)}.group-option input{margin:0 7px 0 0;accent-color:var(--accent)}.group-label{font-size:12px;font-weight:750}.group-times{font-size:11px;color:var(--muted);margin:4px 0 0 22px;line-height:1.35}
 .add-btn{width:100%;border:0;border-radius:11px;background:var(--accent);color:#fff;font-weight:800;padding:11px;margin-top:3px}.add-btn:hover:not(:disabled){background:var(--accent-dark)}.add-btn:disabled{background:#c8d2d7;color:#6f7d83;cursor:not-allowed}.inline-error{color:var(--danger);font-size:11px;line-height:1.35;margin:7px 2px 0;font-weight:650}
 .main{min-width:0;min-height:0;display:flex;flex-direction:column;overflow:hidden}
-.selected-bar{background:#fff;border-bottom:1px solid var(--line);padding:10px 16px;display:flex;align-items:center;gap:10px;min-height:54px}.selected-label{font-size:12px;font-weight:800;white-space:nowrap}.selected-chips{display:flex;gap:7px;overflow:auto;min-width:0;padding:2px}.selected-empty{font-size:12px;color:var(--muted)}.selected-chip{display:flex;align-items:center;gap:6px;border:1px solid var(--line);border-radius:999px;background:#f8fbfc;padding:6px 7px 6px 10px;font-size:11px;white-space:nowrap}.chip-remove{width:20px;height:20px;border:0;border-radius:50%;background:#e9eef1;color:#526169;line-height:20px;padding:0}.chip-remove:hover{background:#ffdfe3;color:#a51727}
-.calendar-toolbar{padding:12px 16px 10px;display:flex;align-items:center;gap:10px;flex-wrap:wrap}.calendar-toolbar h2{font-size:16px;margin:0}.legend{display:flex;align-items:center;gap:10px;margin-left:auto;font-size:11px;color:var(--muted);flex-wrap:wrap}.legend-item{display:flex;align-items:center;gap:5px}.legend-swatch{width:13px;height:13px;border-radius:4px;border:2px solid #6f8792;background:#dceff4}.legend-swatch.preview{border-style:dashed}.legend-swatch.conflict{background:#ffd9de;border-color:var(--danger)}
+.selected-bar{background:#fff;border-bottom:1px solid var(--line);padding:10px 16px;display:flex;align-items:center;gap:10px;min-height:54px}.selected-label{font-size:12px;font-weight:800;white-space:nowrap}.selected-chips{display:flex;gap:7px;overflow:auto;min-width:0;padding:2px}.selected-empty{font-size:12px;color:var(--muted)}.selected-chip{display:flex;align-items:center;gap:6px;border:1px solid var(--line);border-radius:999px;background:#f8fbfc;padding:6px 7px 6px 10px;font-size:11px;white-space:nowrap}.chip-remove{width:20px;height:20px;border:0;border-radius:50%;background:#e9eef1;color:#526169;line-height:20px;padding:0}.chip-remove:hover{background:#ffdfe3;color:#a51727}.chip-code{display:block;font-size:10px;color:#66767d;font-weight:600;margin-top:2px}
+.calendar-toolbar{padding:12px 16px 10px;display:flex;align-items:center;gap:10px;flex-wrap:wrap}.calendar-toolbar h2{font-size:16px;margin:0}.legend{display:flex;align-items:center;gap:10px;margin-left:auto;font-size:11px;color:var(--muted);flex-wrap:wrap}.export-actions{display:flex;align-items:center;gap:8px}.export-btn{border:1px solid var(--line);background:#fff;color:#1f2e35;border-radius:10px;padding:8px 12px;font-size:12px;font-weight:800;cursor:pointer;box-shadow:var(--shadow)}.export-btn:hover{background:#f4f8fa}.export-btn.secondary{font-weight:700}.export-btn:disabled{opacity:.6;cursor:not-allowed}.legend-item{display:flex;align-items:center;gap:5px}.legend-swatch{width:13px;height:13px;border-radius:4px;border:2px solid #6f8792;background:#dceff4}.legend-swatch.preview{border-style:dashed}.legend-swatch.conflict{background:#ffd9de;border-color:var(--danger)}
 .week-toggle{display:flex;border:1px solid var(--line);border-radius:10px;overflow:hidden;background:#fff}.week-toggle button{border:0;border-right:1px solid var(--line);background:#fff;padding:7px 10px;font-size:11px;color:#586870}.week-toggle button:last-child{border-right:0}.week-toggle button.active{background:#172126;color:#fff}
 .alert{margin:0 16px 10px;padding:10px 12px;border-radius:11px;background:#fff0f2;border:1px solid #ffc9d0;color:#9d1b2a;font-size:12px;display:none}.alert.show{display:block}.alert strong{display:block;margin-bottom:3px}
 .calendar-scroll{min-height:0;overflow:auto;padding:0 16px 18px}.calendar-card{min-width:880px;background:#fff;border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden}
 .calendar-head{height:46px;display:grid;grid-template-columns:70px repeat(6,1fr);position:sticky;top:0;background:#fff;z-index:8;border-bottom:1px solid var(--line)}.calendar-head div{display:flex;align-items:center;justify-content:center;border-right:1px solid var(--line);font-size:12px;font-weight:800}.calendar-head div:last-child{border-right:0}.calendar-head .corner{color:var(--muted);font-weight:600;font-size:10px}
 .calendar-body{height:840px;position:relative;display:grid;grid-template-columns:70px 1fr}.time-axis{position:relative;border-right:1px solid var(--line);background:#fbfcfd}.time-label{position:absolute;right:9px;transform:translateY(-50%);font-size:10px;color:#6d7c83;line-height:1}.time-label.hour{font-weight:750;color:#45555d}
 .days-layer{position:relative;overflow:hidden;background-color:#fff;background-image:repeating-linear-gradient(to bottom,transparent 0,transparent 27px,#edf1f3 27px,#edf1f3 28px),repeating-linear-gradient(to bottom,transparent 0,transparent 55px,#dbe3e7 55px,#dbe3e7 56px)}
-.day-col{position:absolute;top:0;bottom:0;border-right:1px solid var(--line);pointer-events:none}.day-col:last-of-type{border-right:0}.event{position:absolute;border-radius:8px;border:2px solid hsl(var(--hue) 58% 36%);background:hsl(var(--hue) 72% 91% / .96);color:hsl(var(--hue) 58% 22%);padding:5px 6px;overflow:hidden;font-size:10px;line-height:1.15;box-shadow:0 2px 6px rgba(0,0,0,.08);z-index:2;transition:transform .12s,box-shadow .12s}.event:hover{z-index:9;transform:scale(1.015);box-shadow:0 6px 14px rgba(0,0,0,.16)}.event.preview{border-style:dashed;z-index:5}.event.conflict{border-color:var(--danger);background:repeating-linear-gradient(135deg,#ffe4e7 0,#ffe4e7 7px,#ffcbd2 7px,#ffcbd2 14px);color:#851524;z-index:7}.event-code{font-weight:900;font-size:10px}.event-group{font-weight:750;margin-top:2px}.event-meta{font-size:9px;margin-top:3px;opacity:.85}.event-teacher{font-size:8.5px;margin-top:3px;font-weight:750;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;opacity:.95}.freq-badge{display:inline-block;border-radius:5px;background:rgba(255,255,255,.74);padding:1px 4px;margin-left:3px;font-size:8px;font-weight:900}
+.day-col{position:absolute;top:0;bottom:0;border-right:1px solid var(--line);pointer-events:none}.day-col:last-of-type{border-right:0}.event{position:absolute;border-radius:8px;border:2px solid hsl(var(--hue) 58% 36%);background:hsl(var(--hue) 72% 91% / .96);color:hsl(var(--hue) 58% 22%);padding:5px 6px;overflow:hidden;font-size:10px;line-height:1.15;box-shadow:0 2px 6px rgba(0,0,0,.08);z-index:2;transition:transform .12s,box-shadow .12s}.event:hover{z-index:9;transform:scale(1.015);box-shadow:0 6px 14px rgba(0,0,0,.16)}.event.preview{border-style:dashed;z-index:5}.event.conflict{border-color:var(--danger);background:repeating-linear-gradient(135deg,#ffe4e7 0,#ffe4e7 7px,#ffcbd2 7px,#ffcbd2 14px);color:#851524;z-index:7}.event-code{font-weight:900;font-size:10px;line-height:1.15;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden}.event-group{font-weight:750;margin-top:2px}.event-meta{font-size:9px;margin-top:3px;opacity:.85}.event-teacher{font-size:8.5px;margin-top:3px;font-weight:750;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;opacity:.95}.freq-badge{display:inline-block;border-radius:5px;background:rgba(255,255,255,.74);padding:1px 4px;margin-left:3px;font-size:8px;font-weight:900}
 .empty-overlay{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;pointer-events:none}.empty-card{text-align:center;background:rgba(255,255,255,.92);border:1px dashed #cbd7dc;border-radius:14px;padding:22px 28px;color:var(--muted);max-width:340px}.empty-card b{display:block;color:#35464e;margin-bottom:5px}
 .footer-note{font-size:10px;color:#74838a;padding:8px 3px 0;text-align:right}
 @media(max-width:1000px){body{overflow:auto}.app{height:auto;min-height:100%}.workspace{grid-template-columns:1fr}.sidebar{height:55vh;border-right:0;border-bottom:1px solid var(--line)}.main{min-height:850px}.top-stats .pill{display:none}.topbar{position:sticky;top:0}.calendar-scroll{overflow:auto}}
@@ -57,7 +57,7 @@ button,input{font:inherit} button{cursor:pointer}
     </aside>
     <main class="main">
       <div class="selected-bar"><span class="selected-label">Mi horario</span><div id="selectedChips" class="selected-chips"></div></div>
-      <div class="calendar-toolbar"><h2>Calendario semanal</h2><div class="week-toggle" aria-label="Filtro de semana"><button data-week="ALL" class="active">Todas</button><button data-week="A">Semana A</button><button data-week="B">Semana B</button></div><div class="legend"><span class="legend-item"><i class="legend-swatch"></i>Agregado</span><span class="legend-item"><i class="legend-swatch preview"></i>Vista previa</span><span class="legend-item"><i class="legend-swatch conflict"></i>Choque</span></div></div>
+      <div class="calendar-toolbar"><h2>Calendario semanal</h2><div class="week-toggle" aria-label="Filtro de semana"><button data-week="ALL" class="active">Todas</button><button data-week="A">Semana A</button><button data-week="B">Semana B</button></div><div class="export-actions"><button id="exportJpgBtn" class="export-btn">Descargar JPG</button><button id="exportCsvBtn" class="export-btn secondary">Descargar CSV</button></div><div class="legend"><span class="legend-item"><i class="legend-swatch"></i>Agregado</span><span class="legend-item"><i class="legend-swatch preview"></i>Vista previa</span><span class="legend-item"><i class="legend-swatch conflict"></i>Choque</span></div></div>
       <div id="conflictAlert" class="alert"></div>
       <div class="calendar-scroll"><div class="calendar-card"><div class="calendar-head"><div class="corner">Hora</div><div>Lunes</div><div>Martes</div><div>Miércoles</div><div>Jueves</div><div>Viernes</div><div>Sábado</div></div><div class="calendar-body"><div id="timeAxis" class="time-axis"></div><div id="daysLayer" class="days-layer"></div></div></div><div class="footer-note">El planificador considera Semana General, Semana A y Semana B al validar choques.</div></div>
     </main>
@@ -183,7 +183,7 @@ function renderSidebar(){
 }
 function renderSelected(){
   const entries=Object.entries(selected).sort((a,b)=>collator.compare(courseMap.get(a[0]).name,courseMap.get(b[0]).name));
-  $('#selectedChips').innerHTML=entries.length?entries.map(([code,p])=>`<span class="selected-chip"><b>${escapeHtml(code)}</b> · Sec. ${p.section}<button class="chip-remove" data-remove="${code}" title="Quitar ${escapeHtml(code)}">×</button></span>`).join(''):`<span class="selected-empty">Todavía no has agregado cursos.</span>`;
+  $('#selectedChips').innerHTML=entries.length?entries.map(([code,p])=>{const c=courseMap.get(code);return `<span class="selected-chip"><span><b>${escapeHtml(c?.name||code)}</b> · Sec. ${p.section}<span class="chip-code">${escapeHtml(code)}</span></span><button class="chip-remove" data-remove="${code}" title="Quitar ${escapeHtml(c?.name||code)}">×</button></span>`}).join(''):`<span class="selected-empty">Todavía no has agregado cursos.</span>`;
   document.querySelectorAll('[data-remove]').forEach(b=>b.addEventListener('click',()=>removeCourse(b.dataset.remove)));
 }
 function renderTimesAndColumns(){
@@ -207,12 +207,12 @@ function renderCalendar(){
     if(e.frequency==='Semana B'){within=51;width=47}
     const left=di*dayW+(within/100)*dayW, w=(width/100)*dayW;
     const badge=e.frequency==='Semana A'?'A':e.frequency==='Semana B'?'B':'';
-    const title=`${e.code} · ${e.name}\n${e.session}\n${DAY_LABEL[e.day]} ${e.start}-${e.end}\n${e.frequency} · ${e.modality}\n${e.location}${e.teacher?'\nDocente: '+e.teacher:''}`;
-    layer.insertAdjacentHTML('beforeend',`<div class="event ${e.isPreview?'preview':''} ${e.isConflict?'conflict':''}" style="--hue:${hueFor(e.code)};top:${top}px;height:${height}px;left:${left}%;width:${w}%" title="${escapeHtml(title)}"><div class="event-code">${escapeHtml(e.code)}${badge?`<span class="freq-badge">${badge}</span>`:''}</div><div class="event-group">${escapeHtml(e.session)}</div><div class="event-meta">${e.start}-${e.end} · ${escapeHtml(e.location.replace('UTEC-BA ',''))}</div><div class="event-teacher">${escapeHtml(e.teacher?'Prof. '+e.teacher:'Profesor no especificado')}</div></div>`);
+    const title=`${e.name} (${e.code})\n${e.session}\n${DAY_LABEL[e.day]} ${e.start}-${e.end}\n${e.frequency} · ${e.modality}\n${e.location}${e.teacher?'\nDocente: '+e.teacher:''}`;
+    layer.insertAdjacentHTML('beforeend',`<div class="event ${e.isPreview?'preview':''} ${e.isConflict?'conflict':''}" style="--hue:${hueFor(e.code)};top:${top}px;height:${height}px;left:${left}%;width:${w}%" title="${escapeHtml(title)}"><div class="event-code">${escapeHtml(e.name)}${badge?`<span class="freq-badge">${badge}</span>`:''}</div><div class="event-group">${escapeHtml(e.session)}</div><div class="event-meta">${e.start}-${e.end} · ${escapeHtml(e.location.replace('UTEC-BA ',''))}</div><div class="event-teacher">${escapeHtml(e.teacher?'Prof. '+e.teacher:'Profesor no especificado')}</div></div>`);
   }
   const alert=$('#conflictAlert');
   if(conflict.pairs.length){
-    const unique=[];const seen=new Set();for(const [a,b] of conflict.pairs){const k=[a.code,a.day,a.start,a.end,b.code,b.start,b.end].join('|');if(!seen.has(k)){seen.add(k);unique.push(`${a.code} (${DAY_LABEL[a.day]} ${a.start}-${a.end}) se cruza con ${b.code} (${b.start}-${b.end})`)}}
+    const unique=[];const seen=new Set();for(const [a,b] of conflict.pairs){const k=[a.code,a.day,a.start,a.end,b.code,b.start,b.end].join('|');if(!seen.has(k)){seen.add(k);unique.push(`${a.name} (${DAY_LABEL[a.day]} ${a.start}-${a.end}) se cruza con ${b.name} (${b.start}-${b.end})`)}}
     alert.className='alert show';alert.innerHTML=`<strong>Error: choque de horarios</strong>${unique.slice(0,4).map(escapeHtml).join('<br>')}${unique.length>4?`<br>y ${unique.length-4} choque(s) más.`:''}`;
   }else{alert.className='alert';alert.innerHTML=''}
 }
@@ -222,7 +222,79 @@ $('#datasetStats').textContent=`${courses.length} cursos · ${RAW.length} sesion
 $('#search').addEventListener('input',renderSidebar);
 $('#resetBtn').addEventListener('click',()=>{if(confirm('¿Deseas borrar todos los cursos del horario?')){selected={};save();renderAll()}});
 document.querySelectorAll('[data-week]').forEach(b=>b.addEventListener('click',()=>{weekView=b.dataset.week;document.querySelectorAll('[data-week]').forEach(x=>x.classList.toggle('active',x.dataset.week===weekView));renderCalendar()}));
+function filenameStamp(){
+  const d=new Date();
+  const pad=n=>String(n).padStart(2,'0');
+  return `${d.getFullYear()}-${pad(d.getMonth()+1)}-${pad(d.getDate())}_${pad(d.getHours())}-${pad(d.getMinutes())}`;
+}
+function currentScheduleEvents(){
+  return allSelectedEvents().filter(visibleByWeek).sort((a,b)=>{
+    const dayCmp=DAYS.indexOf(a.day)-DAYS.indexOf(b.day);
+    if(dayCmp!==0)return dayCmp;
+    return minutes(a.start)-minutes(b.start);
+  });
+}
+async function exportCalendarJPG(){
+  const target=document.querySelector('.main');
+  const btn=$('#exportJpgBtn');
+  if(!target)return;
+  if(typeof window.html2canvas!=='function'){
+    alert('No se pudo cargar la librería para exportar JPG. Recarga la página e inténtalo otra vez.');
+    return;
+  }
+  const prevText=btn.textContent;
+  btn.disabled=true; btn.textContent='Generando...';
+  const actions=document.querySelector('.export-actions');
+  const legend=document.querySelector('.legend');
+  const conflictAlert=document.querySelector('#conflictAlert');
+  const prevVisActions=actions.style.visibility;
+  const prevVisLegend=legend.style.visibility;
+  actions.style.visibility='hidden';
+  legend.style.visibility='hidden';
+  document.body.classList.add('exporting-jpg');
+  try{
+    const canvas=await window.html2canvas(target,{backgroundColor:'#ffffff',scale:2,useCORS:true,logging:false,scrollX:0,scrollY:-window.scrollY,windowWidth:document.documentElement.scrollWidth,windowHeight:document.documentElement.scrollHeight});
+    const link=document.createElement('a');
+    link.download=`horario_utec_${weekView==='ALL'?'todas':('semana_'+weekView.toLowerCase())}_${filenameStamp()}.jpg`;
+    link.href=canvas.toDataURL('image/jpeg',0.96);
+    link.click();
+  }catch(err){
+    console.error(err);
+    alert('Hubo un problema al generar el JPG.');
+  }finally{
+    actions.style.visibility=prevVisActions;
+    legend.style.visibility=prevVisLegend;
+    document.body.classList.remove('exporting-jpg');
+    btn.disabled=false; btn.textContent=prevText;
+  }
+}
+function csvEscape(v){
+  const s=String(v??'');
+  return /[",\n]/.test(s)?`"${s.replace(/"/g,'""')}"`:s;
+}
+function exportScheduleCSV(){
+  const events=currentScheduleEvents();
+  if(!events.length){
+    alert('Primero agrega al menos un curso para exportar el CSV.');
+    return;
+  }
+  const rows=[['Curso','Código','Sección','Sesión / Grupo','Día','Inicio','Fin','Frecuencia','Modalidad','Ubicación','Profesor']];
+  for(const e of events){
+    rows.push([e.name,e.code,e.section,e.session,DAY_LABEL[e.day],e.start,e.end,e.frequency,e.modality,e.location,e.teacher||'Profesor no especificado']);
+  }
+  const csv='\ufeff'+rows.map(r=>r.map(csvEscape).join(',')).join('\n');
+  const blob=new Blob([csv],{type:'text/csv;charset=utf-8;'});
+  const url=URL.createObjectURL(blob);
+  const link=document.createElement('a');
+  link.href=url;
+  link.download=`horario_utec_${weekView==='ALL'?'todas':('semana_'+weekView.toLowerCase())}_${filenameStamp()}.csv`;
+  link.click();
+  setTimeout(()=>URL.revokeObjectURL(url),1500);
+}
+$('#exportJpgBtn').addEventListener('click',exportCalendarJPG);
+$('#exportCsvBtn').addEventListener('click',exportScheduleCSV);
 renderTimesAndColumns();renderAll();
 </script>
+<script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
 </body>
 </html>
